@@ -6,12 +6,12 @@ I'm a passionate software developer with experience in both backend and frontend
 
 ---
 
-## 💼 About Me
+## About Me
 
-- 🔭 I’m currently working on strengthening my full-stack skills  
-- 👨‍💻 I love building **REST APIs**, **web apps**, and exploring modern tech  
-- 🧠 I’m always learning and open to collaborating on open-source projects  
-- 💬 Ask me about: Java, Spring Boot, SQL Databases, or competitive programming
+- I’m currently working on strengthening my full-stack skills  
+- I love building **REST APIs**, **web apps**, and exploring modern tech  
+- I’m always learning and open to collaborating on open-source projects  
+- Ask me about: Java, Spring Boot, SQL Databases, or competitive programming
 
 ---
 
@@ -50,12 +50,6 @@ I'm a passionate software developer with experience in both backend and frontend
 - Git & GitHub
 - VS Code / IntelliJ IDEA
 - Maven / Gradle
-
----
-
-## 📈 GitHub Stats
-
-![Faiyaj's GitHub stats](https://github-readme-stats.vercel.app/api?username=FaiyajJarif&show_icons=true&theme=tokyonight)
 
 ---
 
