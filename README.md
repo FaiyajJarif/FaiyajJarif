@@ -14,12 +14,13 @@
 
 ## 🧑‍💻 About Me
 
-- 🎓 Computer Science & Engineering student at **United International University (UIU)**
-- 🤖 I build things that bridge **hardware and software** — robots, IoT systems, and computer-vision apps
-- 🚑 Currently building **RescueBot**, an autonomous search-and-rescue robot (ESP32 + Python/OpenCV)
-- 🌱 Exploring **embedded systems, real-time control, backend API design, and UI/UX**
-- 💬 Ask me about **ESP32, OpenCV/YOLO, .NET APIs, algorithms, or system design**
-- ⚡ Fun fact: I like turning messy real-world problems into clean, structured systems
+- Computer Science & Engineering student at **United International University (UIU)**
+- I build things that bridge **hardware and software** — robots, IoT systems, and computer-vision apps
+- Currently building **Hishab-Nikash**, an website to help people to track their income and imporve financially
+- Currently building **RescueBot**, an autonomous search-and-rescue robot (ESP32 + Python/OpenCV)
+- Exploring **embedded systems, real-time control, backend API design, and UI/UX**
+- Ask me about **ESP32, OpenCV/YOLO, .NET APIs, algorithms, or system design**
+- Fun fact: I like turning messy real-world problems into clean, structured systems
 
 ---
 
