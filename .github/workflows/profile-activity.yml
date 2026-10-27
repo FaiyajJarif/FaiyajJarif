@@ -1,0 +1,114 @@
+"""Write the user's recent public GitHub activity into README.md.
+
+Runs in GitHub Actions. Replaces everything between
+<!--START_SECTION:activity--> and <!--END_SECTION:activity-->.
+"""
+import json
+import os
+import re
+import sys
+import urllib.request
+from datetime import datetime
+
+USER = os.environ.get("GH_USER", "FaiyajJarif")
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
+README = os.environ.get("README_PATH", "README.md")
+MAX_LINES = int(os.environ.get("MAX_LINES", "6"))
+EVENTS_FILE = os.environ.get("EVENTS_FILE")  # local testing only
+
+START, END = "<!--START_SECTION:activity-->", "<!--END_SECTION:activity-->"
+
+
+def api(path):
+    req = urllib.request.Request(
+        f"https://api.github.com{path}",
+        headers={"Accept": "application/vnd.github+json", "User-Agent": USER},
+    )
+    if TOKEN:
+        req.add_header("Authorization", f"Bearer {TOKEN}")
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
+
+
+def pr_title(repo, number):
+    if EVENTS_FILE or not number:
+        return None
+    try:
+        return api(f"/repos/{repo}/pulls/{number}").get("title")
+    except Exception:
+        return None
+
+
+def repo_link(repo):
+    name = repo.split("/", 1)[1] if repo.lower().startswith(USER.lower() + "/") else repo
+    return f"[{name}](https://github.com/{repo})"
+
+
+def describe(e):
+    t, p, repo = e["type"], e.get("payload", {}), e["repo"]["name"]
+    if t == "PushEvent":
+        return ("push", repo), f"Pushed to {repo_link(repo)}"
+    if t == "PullRequestEvent":
+        pr = p.get("pull_request") or {}
+        n = pr.get("number") or p.get("number")
+        action = "merged" if p.get("action") == "closed" and pr.get("merged") else p.get("action")
+        if action not in ("opened", "merged"):
+            return None
+        title = pr.get("title") or pr_title(repo, n)
+        label = f"PR #{n}" + (f": {title}" if title else "")
+        url = f"https://github.com/{repo}/pull/{n}"
+        return ("pr", repo, n, action), f"{action.capitalize()} [{label}]({url}) in {repo_link(repo)}"
+    if t == "CreateEvent" and p.get("ref_type") == "repository":
+        return ("create", repo), f"Created repository {repo_link(repo)}"
+    if t == "ReleaseEvent" and p.get("action") == "published":
+        rel = p.get("release") or {}
+        return ("rel", repo), f"Released [{rel.get('tag_name', 'a new version')}]({rel.get('html_url', '')}) of {repo_link(repo)}"
+    if t == "IssuesEvent" and p.get("action") in ("opened", "closed"):
+        i = p.get("issue") or {}
+        return ("issue", repo, i.get("number")), f"{p['action'].capitalize()} issue [#{i.get('number')}]({i.get('html_url')}) in {repo_link(repo)}"
+    if t == "PublicEvent":
+        return ("public", repo), f"Made {repo_link(repo)} public"
+    if t == "ForkEvent":
+        return ("fork", repo), f"Forked {repo_link(repo)}"
+    return None
+
+
+def build_lines(events):
+    events = sorted(events, key=lambda e: e["created_at"], reverse=True)
+    seen, lines = set(), []
+    for e in events:
+        d = describe(e)
+        if not d:
+            continue
+        key, text = d
+        day = e["created_at"][:10]
+        if (day,) + key in seen:  # one line per repo per day for pushes, per PR action
+            continue
+        seen.add((day,) + key)
+        date = datetime.strptime(day, "%Y-%m-%d").strftime("%b %d, %Y")
+        lines.append(f"- `{date}` {text}")
+        if len(lines) >= MAX_LINES:
+            break
+    return lines or ["- No recent public activity"]
+
+
+def main():
+    if EVENTS_FILE:
+        events = json.load(open(EVENTS_FILE))
+    else:
+        events = api(f"/users/{USER}/events/public?per_page=100")
+    body = "\n".join(build_lines(events))
+    text = open(README, encoding="utf-8").read()
+    pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
+    if not pattern.search(text):
+        sys.exit(f"Markers {START} / {END} not found in {README}")
+    new = pattern.sub(lambda _: f"{START}\n{body}\n{END}", text)
+    if new != text:
+        open(README, "w", encoding="utf-8").write(new)
+        print("README updated")
+    else:
+        print("No change")
+
+
+if __name__ == "__main__":
+    main()
