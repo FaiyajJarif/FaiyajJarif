@@ -1,101 +1,55 @@
-<h1 align="center">Hi there, I'm Faiyaj Jarif 👋</h1>
+<h1 align="center">Faiyaj Jarif</h1>
 
 <p align="center">
-  <b>CSE Student @ United International University</b> · Robotics & IoT · Computer Vision · Full-Stack
+  CSE Undergraduate at United International University &nbsp;·&nbsp; Robotics & IoT &nbsp;·&nbsp; Computer Vision &nbsp;·&nbsp; Full-Stack Development
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/faiyaj-jarif/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:faiyaj.jarif01@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=FaiyajJarif&style=for-the-badge&color=brightgreen" alt="Profile views"/>
-</p>
-
----
-
-## 🧑‍💻 About Me
-
-- Computer Science & Engineering student at **United International University (UIU)**
-- I build things that bridge **hardware and software** — robots, IoT systems, and computer-vision apps
-- Currently building **Hishab-Nikash**, an website to help people to track their income and imporve financially
-- Currently building **RescueBot**, an autonomous search-and-rescue robot (ESP32 + Python/OpenCV)
-- Exploring **embedded systems, real-time control, backend API design, and UI/UX**
-- Ask me about **ESP32, OpenCV/YOLO, .NET APIs, algorithms, or system design**
-- Fun fact: I like turning messy real-world problems into clean, structured systems
-
----
-
-## 🏆 Achievements
-
-- 🥉 **2nd Runner Up — Database Management System Lab**, CSE Project Show Fall 2025 (UIU) → *DatabaseHub: E-Learning Platform Backend API*
-- 🥉 **2nd Runner Up — System Analysis & Design Lab**, CSE Project Show (UIU) → *Cha Ghor: Tea Garden Management System*
-- 🥉 **3rd Runner Up — Electronics Labratory**, CSE Project Show (UIU) → *Nano_bot: A rescue bot to save traped people in disaster zone*
-
----
-
-## 🛠️ Skills & Technologies
-
-**Languages**
-
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-
-**Backend & Frameworks**
-
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-
-**Frontend & Design**
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-**Databases**
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Robotics / IoT & Vision**
-
-![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-
----
-
-## 📌 Featured Projects
-
-| Project | Description | Tech |
-| --- | --- | --- |
-| [**DatabaseHub**](https://github.com/FaiyajJarif/DatabaseHub) | 🥉 E-Learning Platform Backend API with auth, courses, gamification & payments | ASP.NET Core, PostgreSQL |
-| **Cha Ghor** | 🥉 Tea Garden Management System — role-based web + mobile solution (UI designed in Figma) | System Design, Figma |
-| [**Hishab-Nikash**](https://github.com/FaiyajJarif/Hishab-Nikash) | Advanced OOP course project (UIU) | Java |
-| **RescueBot** | Autonomous search-and-rescue robot: ESP32 body + Python/OpenCV brain | ESP32, Python, OpenCV |
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FaiyajJarif&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiyajJarif&layout=compact&theme=tokyonight" alt="Top Languages" height="165"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=FaiyajJarif&theme=tokyonight" alt="GitHub Streak"/>
+  <a href="https://www.linkedin.com/in/faiyaj-jarif/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:faiyaj.jarif01@gmail.com"><img src="https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://codeforces.com/profile/faiyaj_j"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" alt="Codeforces"></a>
+  <a href="https://www.facebook.com/faiyaj.jarif"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" alt="Facebook"></a>
 </p>
 
 ---
 
-<p align="center"><i>"Code is like humor. When you have to explain it, it's bad." — Cory House</i></p>
+### About
+
+I'm a Computer Science & Engineering student at United International University (UIU) and an Undergraduate Teaching Assistant. I work across hardware and software: autonomous robots and embedded systems on one side, and database-driven web platforms on the other.
+
+Current interests: embedded systems (ESP32), real-time control, computer vision (OpenCV, YOLO), backend API design, database engineering, and UI/UX. I also practice algorithms and competitive programming on Codeforces.
+
+---
+
+### Featured Projects
+
+| Project | Description | Stack |
+|---|---|---|
+| [**Cha Ghor**](https://github.com/faiyajjarif/Cha-Ghor) | Tea garden management system with map-based plot tracking, analytics dashboards and an AI service for leaf-image analysis | Spring Boot, PostgreSQL, React, FastAPI |
+| [**PawHome**](https://github.com/PawHome-UIU/PawHome) | Pet adoption and boarding platform where the database enforces the business rules: 32 tables, 69 foreign keys, 39 CHECK constraints | Spring Boot, MySQL, Flyway, React, Tailwind |
+| [**Hishab-Nikash**](https://github.com/faiyajjarif/Hishab-Nikash) | Personal and family finance tracker with real-time updates, QR scanning and PDF reports | Spring Boot, PostgreSQL, React, WebSocket |
+| [**DatabaseHub**](https://github.com/shamiulriyad/DatabaseHub) | E-learning platform backend API with role-based access, courses, assessments and gamification | ASP.NET Core 8, PostgreSQL, EF Core |
+| **RescueBot** | Autonomous search-and-rescue robot for locating people trapped in disaster zones | ESP32, Python, OpenCV |
+
+---
+
+### Recognition
+
+| Year | Award | Event | Project |
+|---|---|---|---|
+| 2026 | 2nd Runner-Up | Hardware Project Showcasing, SMUCT CSE Fest v3.0 | RescueBot |
+| 2026 | 2nd Runner-Up | UIU CSE Project Show (Spring) — System Analysis & Design Lab | Cha Ghor |
+| 2026 | 3rd Runner-Up | UIU CSE Project Show (Spring) — Electronics Lab | RescueBot |
+| 2025 | 2nd Runner-Up | UIU CSE Project Show (Fall) — Database Management Systems Lab | DatabaseHub |
+
+---
+
+### Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,cs,dotnet,py,fastapi,cpp,js,react,vite,tailwind,postgres,mysql,docker,arduino,opencv,git,linux&perline=9" alt="Tech stack">
+</p>
+
+---
+
+<p align="center"><sub>Open to research collaborations and internship opportunities.</sub></p>
