@@ -92,29 +92,16 @@ I'm a Computer Science & Engineering student at **United International Universit
 
 ---
 
-## GitHub Activity
+## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=FaiyajJarif&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiyajJarif&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=FaiyajJarif&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaiyajJarif&layout=compact&theme=tokyonight" alt="Top Languages" height="165"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=FaiyajJarif&theme=tokyonight&hide_border=true" alt="GitHub Streak">
+  <img src="https://streak-stats.demolab.com?user=FaiyajJarif&theme=tokyonight" alt="GitHub Streak"/>
 </p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FaiyajJarif/FaiyajJarif/output/contribution-grid-dark.svg">
-    <img src="https://raw.githubusercontent.com/FaiyajJarif/FaiyajJarif/output/contribution-grid.svg" width="100%" alt="Contribution grid">
-  </picture>
-</p>
-
-### Recent Activity
-
-<!--START_SECTION:activity-->
-- Updates automatically every 6 hours
-<!--END_SECTION:activity-->
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,100:7aa2f7&height=110&section=footer" width="100%" alt="">
